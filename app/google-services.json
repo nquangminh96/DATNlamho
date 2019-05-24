@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1070038892616",
+    "firebase_url": "https://datn-fc179.firebaseio.com",
+    "project_id": "datn-fc179",
+    "storage_bucket": "datn-fc179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070038892616:android:a48b84d7b1197740",
+        "android_client_info": {
+          "package_name": "com.example.a4devicescontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070038892616-nlolhedtrs63rd13t958upsuvgcja991.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8IPRloS1996xDkd9osmboOX6gVQAkB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070038892616-nlolhedtrs63rd13t958upsuvgcja991.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
