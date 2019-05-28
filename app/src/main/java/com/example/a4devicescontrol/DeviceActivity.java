@@ -40,9 +40,6 @@ public class DeviceActivity extends AppCompatActivity {
                 final RadioButton rbLevel0, rbLevel1, rbLevel2, rbLevel3, rbLevel4 ;
                 rbLevel0 = dialog.findViewById(R.id.RadioButtonLevel0ControlPower);
                 rbLevel1 = dialog.findViewById(R.id.RadioButtonLevel1ControlPower);
-                rbLevel2 = dialog.findViewById(R.id.RadioButtonLevel2ControlPower);
-                rbLevel3 = dialog.findViewById(R.id.RadioButtonLevel3ControlPower);
-                rbLevel4 = dialog.findViewById(R.id.RadioButtonLevel4ControlPower);
                 TextView text = dialog.findViewById(R.id.text);
                 text.setText("Device 1");
                 myData.child("DR1").addValueEventListener(new ValueEventListener() {
@@ -57,18 +54,7 @@ public class DeviceActivity extends AppCompatActivity {
                                 rbLevel1.setChecked(true);
                                 break;
                             }
-                            case "2": {
-                                rbLevel2.setChecked(true);
-                                break;
-                            }
-                            case "3": {
-                                rbLevel3.setChecked(true);
-                                break;
-                            }
-                            case "4": {
-                                rbLevel4.setChecked(true);
-                                break;
-                            }
+
                             default:break;
                         }
                     }
@@ -90,24 +76,6 @@ public class DeviceActivity extends AppCompatActivity {
                         myData.child("DR1").setValue(1);
                     }
                 });
-                rbLevel2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR1").setValue(2);
-                    }
-                });
-                rbLevel3.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR1").setValue(3);
-                    }
-                });
-                rbLevel4.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR1").setValue(4);
-                    }
-                });
                 dialog.show();
             }
         });
@@ -119,9 +87,6 @@ public class DeviceActivity extends AppCompatActivity {
                 final RadioButton rbLevel0, rbLevel1, rbLevel2, rbLevel3, rbLevel4 ;
                 rbLevel0 = dialog.findViewById(R.id.RadioButtonLevel0ControlPower);
                 rbLevel1 = dialog.findViewById(R.id.RadioButtonLevel1ControlPower);
-                rbLevel2 = dialog.findViewById(R.id.RadioButtonLevel2ControlPower);
-                rbLevel3 = dialog.findViewById(R.id.RadioButtonLevel3ControlPower);
-                rbLevel4 = dialog.findViewById(R.id.RadioButtonLevel4ControlPower);
                 TextView text = dialog.findViewById(R.id.text);
                 text.setText("Device 2");
                 myData.child("DR2").addValueEventListener(new ValueEventListener() {
@@ -136,18 +101,7 @@ public class DeviceActivity extends AppCompatActivity {
                                 rbLevel1.setChecked(true);
                                 break;
                             }
-                            case "2": {
-                                rbLevel2.setChecked(true);
-                                break;
-                            }
-                            case "3": {
-                                rbLevel3.setChecked(true);
-                                break;
-                            }
-                            case "4": {
-                                rbLevel4.setChecked(true);
-                                break;
-                            }
+
                             default:break;
                         }
                     }
@@ -169,24 +123,6 @@ public class DeviceActivity extends AppCompatActivity {
                         myData.child("DR2").setValue(1);
                     }
                 });
-                rbLevel2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR2").setValue(2);
-                    }
-                });
-                rbLevel3.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR2").setValue(3);
-                    }
-                });
-                rbLevel4.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR2").setValue(4);
-                    }
-                });
                 dialog.show();
             }
         });
@@ -198,9 +134,6 @@ public class DeviceActivity extends AppCompatActivity {
                 final RadioButton rbLevel0, rbLevel1, rbLevel2, rbLevel3, rbLevel4 ;
                 rbLevel0 = dialog.findViewById(R.id.RadioButtonLevel0ControlPower);
                 rbLevel1 = dialog.findViewById(R.id.RadioButtonLevel1ControlPower);
-                rbLevel2 = dialog.findViewById(R.id.RadioButtonLevel2ControlPower);
-                rbLevel3 = dialog.findViewById(R.id.RadioButtonLevel3ControlPower);
-                rbLevel4 = dialog.findViewById(R.id.RadioButtonLevel4ControlPower);
                 TextView text = dialog.findViewById(R.id.text);
                 text.setText("Device 3");
                 myData.child("DR3").addValueEventListener(new ValueEventListener() {
@@ -215,18 +148,7 @@ public class DeviceActivity extends AppCompatActivity {
                                 rbLevel1.setChecked(true);
                                 break;
                             }
-                            case "2": {
-                                rbLevel2.setChecked(true);
-                                break;
-                            }
-                            case "3": {
-                                rbLevel3.setChecked(true);
-                                break;
-                            }
-                            case "4": {
-                                rbLevel4.setChecked(true);
-                                break;
-                            }
+
                             default:break;
                         }
                     }
@@ -248,24 +170,7 @@ public class DeviceActivity extends AppCompatActivity {
                         myData.child("DR3").setValue(1);
                     }
                 });
-                rbLevel2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR3").setValue(2);
-                    }
-                });
-                rbLevel3.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR3").setValue(3);
-                    }
-                });
-                rbLevel4.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR3").setValue(4);
-                    }
-                });
+
                 dialog.show();
             }
         });
@@ -277,9 +182,7 @@ public class DeviceActivity extends AppCompatActivity {
                 final RadioButton rbLevel0, rbLevel1, rbLevel2, rbLevel3, rbLevel4 ;
                 rbLevel0 = dialog.findViewById(R.id.RadioButtonLevel0ControlPower);
                 rbLevel1 = dialog.findViewById(R.id.RadioButtonLevel1ControlPower);
-                rbLevel2 = dialog.findViewById(R.id.RadioButtonLevel2ControlPower);
-                rbLevel3 = dialog.findViewById(R.id.RadioButtonLevel3ControlPower);
-                rbLevel4 = dialog.findViewById(R.id.RadioButtonLevel4ControlPower);
+
                 TextView text = dialog.findViewById(R.id.text);
                 text.setText("Device 4");
                 myData.child("DR4").addValueEventListener(new ValueEventListener() {
@@ -292,18 +195,6 @@ public class DeviceActivity extends AppCompatActivity {
                             }
                             case "1": {
                                 rbLevel1.setChecked(true);
-                                break;
-                            }
-                            case "2": {
-                                rbLevel2.setChecked(true);
-                                break;
-                            }
-                            case "3": {
-                                rbLevel3.setChecked(true);
-                                break;
-                            }
-                            case "4": {
-                                rbLevel4.setChecked(true);
                                 break;
                             }
                             default:break;
@@ -325,24 +216,6 @@ public class DeviceActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         myData.child("DR4").setValue(1);
-                    }
-                });
-                rbLevel2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR4").setValue(2);
-                    }
-                });
-                rbLevel3.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR4").setValue(3);
-                    }
-                });
-                rbLevel4.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myData.child("DR4").setValue(4);
                     }
                 });
                 dialog.show();
